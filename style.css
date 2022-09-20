@@ -1,0 +1,29 @@
+body {
+    background-color: honeydew;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family:fantasy;
+}
+
+h3 {
+    font-family:fantasy;
+}
+
+.intro {
+    background-color: lavender;
+    padding: 10px;
+}
+
+.about_me{
+    background-color:blanchedalmond;
+    padding: 10px;
+}
