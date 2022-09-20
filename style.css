@@ -6,6 +6,20 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+ul {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    height: 10%;
+}
+
+
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -14,16 +28,18 @@ h2 {
     font-family:fantasy;
 }
 
-h3 {
+h3.about_me {
     font-family:fantasy;
 }
 
 .intro {
     background-color: lavender;
     padding: 10px;
+    text-align: left;
 }
 
 .about_me{
     background-color:blanchedalmond;
     padding: 10px;
+    text-align: left;
 }
