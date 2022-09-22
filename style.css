@@ -1,3 +1,4 @@
+/* Create general style for the page */
 body {
     background-color: honeydew;
     margin: auto;
@@ -6,6 +7,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+/* Customize HTML tags */
 ul {
     text-align: left;
 }
@@ -19,13 +21,35 @@ p {
     height: 10%;
 }
 
+hr {
+    margin: 15px;
+}
 
 h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
-    font-family:fantasy;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration:none
+}
+
+/* Set link colors */
+
+a:link {
+    color: #999999;
+}
+
+a:visited {
+    color: #555555;
+}
+/* Darken on hover, not completely black */
+a:hover {
+    color: #222222;
 }
 
 h3.about_me {
